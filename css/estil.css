@@ -3,26 +3,31 @@
       font-family: sans-serif;
     }
     .logo{
+      width:250px;
       margin: 2%;
-      float: left;
     }
     
     .cap {
+      color: #fff;
+      height:auto;
       background-color:#4b5259;
       padding: 0;
+    }
+    .centre{
+      overflow:auto;
     }
         
     .menu {
       float: right;
       margin-top:20px;
-      font-size:1.5em;
+      font-size:1.3em;
       font-weight: bold;
       width: auto;
     }
 
     .main {
       float: left;
-      width: 60%;
+      width: 80%;
       padding: 0 20px;
     }
 
@@ -37,6 +42,7 @@
       background-color:#eee;
       text-align:center;
       padding:10px;
+      width:100%;
     }
     
     ul {
@@ -59,7 +65,7 @@
     }
 
     li a:hover {
-        color: #eee;
+        color: #ccc;
         text-decoration: underline;
     }
     
