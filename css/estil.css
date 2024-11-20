@@ -17,8 +17,9 @@
     }
     
     .array_logos img:hover{
-      filter: brightness(50%);
+      filter: brightness(80%);
     }
+
     .boto{
       border-radius: 15px;
       margin:3%;
@@ -32,10 +33,15 @@
       text-decoration:none;
       color: white;
     }
-    
-    .main_obscur{
+    .boto:hover{
+      filter: brightness(80%);
+    }
+
+    .main-obscur{
+      padding: 5% 15%;
+      background-color:#555;
+      color: white;
       width: 100%;
-            overflow:auto;
     }
     
     .cap {
@@ -76,7 +82,7 @@
       width:100%;
     }
     
-    ul {
+    .menu ul {
         list-style-type: none;
         margin: 0;
         padding: 0;
@@ -84,18 +90,18 @@
         background-color: #1ff;
     }
     
-    li {
+    .menu li {
         float: left;
     }
 
-    li a {
+    .menu li a {
         display: inline;
         color: #fff;
         padding: 8px 16px;
         text-decoration: none;
     }
 
-    li a:hover {
+    .menu li a:hover {
         color: #ccc;
         text-decoration: underline;
     }
